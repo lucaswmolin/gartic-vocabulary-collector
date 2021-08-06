@@ -73,8 +73,9 @@ function addWord(word){
 	
 	if (haveWord == 0){
 		arrVocabulary.push(word);
-	} else {
 		console.log("É uma palavra nova!");
+	} else {
+		console.log("A palavra já existe no vocabulário.");
 	}
 	
 	if (send == 1){
